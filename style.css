@@ -68,6 +68,10 @@ nav ul li a:hover {
     color: rgb(170, 107, 228);
 }
 
+main {
+    height: 134vh;
+}
+
 main hr {
     border: 0;
     background-color: #9c97f1;
@@ -127,5 +131,5 @@ footer {
 
 .footer {
     display: flex;
-    margin: 125px 125px;
+    margin: 25px 125px;
 }

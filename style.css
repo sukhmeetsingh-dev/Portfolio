@@ -56,6 +56,16 @@ nav ul li a:hover {
     font-size: 2.5rem;
 }
 
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .rightSection img {
     width: 80%;
 }
@@ -69,7 +79,7 @@ nav ul li a:hover {
 }
 
 main {
-    height: 134vh;
+    height: 175vh;
 }
 
 main hr {
@@ -125,11 +135,25 @@ main hr {
 }
 
 footer {
-    background-color: purple;
-    height: 235px;
+    background-color: #0e0e1a;
 }
 
 .footer {
     display: flex;
-    margin: 25px 125px;
+    padding: 25px 125px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 225px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
 }

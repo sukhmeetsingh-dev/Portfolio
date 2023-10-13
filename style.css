@@ -110,7 +110,7 @@ main hr {
     height: 93px;
     width: 1px;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 6vw;
 }
 
 .image-top {
@@ -148,7 +148,7 @@ footer {
     list-style: none;
 }
 
-.footer > div {
+.footer>div {
     width: 225px;
 }
 
@@ -156,4 +156,69 @@ footer .footer-rights {
     text-align: center;
     color: gray;
     padding: 12px 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        min-width: fit-content;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+    }
+
+    .rightSection {
+        display: flex;
+        width: 720px !important;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 45%;
+        margin-bottom: 73px;
+    }
+
+    .image-top {
+        top: 122px;
+    }
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 141vh;
+    }
+
+    .secondSection .vertical {
+        height: unset;
+    }
+
+    .secondSection .box {
+        width: 50vw;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        left: 45px;
+    }
+
+    footer {
+        display: none;
+    }
 }
